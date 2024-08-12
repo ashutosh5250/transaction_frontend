@@ -1,0 +1,21 @@
+.stat-box {
+  background-color: #d0d696; 
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);  
+}
+
+.stats-heading {
+  font-size: 24px;
+  color: #333; 
+  margin-bottom: 20px;
+}
+
+.single-stat-box p {
+  font-size: 18px;
+  color: #000; 
+  margin: 10px 0; 
+}
