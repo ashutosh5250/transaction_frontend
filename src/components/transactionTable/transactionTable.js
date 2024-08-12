@@ -25,7 +25,7 @@ function TransactionTable({ transactions, onPageChange }) {
               <td>{transaction.description}</td>
               <td>{transaction.price}</td>
               <td>{transaction.category}</td>
-              <td>{transaction.sold}</td>
+              <td>{transaction.sold ? "SOLD" :"NOT SOLD"}</td>
               <td><img src={transaction.image} alt={transaction.title} className="transaction-image"></img></td>
             </tr>
           ))}
