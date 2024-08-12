@@ -58,7 +58,6 @@ function App() {
       const response = await axios.get(
         `${apiEndpoint}/barchart?month=${selectedMonth}`
       );
-      console.log(response.data);
       const data = response.data || [];
       setBarChartData(data);
     } catch (err) {
