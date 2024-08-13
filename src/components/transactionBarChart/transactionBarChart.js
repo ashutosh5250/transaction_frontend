@@ -21,7 +21,7 @@ const TransactionBarChart = ({ data }) => {
       <BarChart
         data={data || defaultData}
         margin={{
-          top: 20, right: 30, left: 20, bottom: 5,
+          top: 20, right: 30, left: 0, bottom: 5,
         }}
       >
         <CartesianGrid strokeDasharray="3 3" />
@@ -29,7 +29,7 @@ const TransactionBarChart = ({ data }) => {
         <YAxis />
         <Tooltip />
         <Legend />
-        <Bar dataKey="count" fill="#82ca9d" />
+        <Bar dataKey="count" fill="#0763f7" />
       </BarChart>
     </ResponsiveContainer>
   );
